@@ -93,9 +93,9 @@ const Product = () => {
               </div>
             </div>
             <div className="info">
-              <span>Vendor: Polo</span>
+              {/* <span>Vendor: Polo</span>
               <span>Product Type: T-Shirt</span>
-              <span>Tag: T-Shirt, Women, Top</span>
+              <span>Tag: T-Shirt, Women, Top</span> */}
             </div>
             <hr />
             <div className="info">

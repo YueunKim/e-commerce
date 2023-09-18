@@ -12,7 +12,7 @@ const Categories = () => {
             alt=""
           />
           <button>
-            <Link className="link" to="/products/1">
+            <Link className="link" to="/products">
               Sale
             </Link>
           </button>
@@ -31,7 +31,7 @@ const Categories = () => {
           {" "}
           <img src="https://ik.imagekit.io/hpapi/bellatrix.jpg" alt="" />
           <button>
-            <Link to="/products/1" className="link">
+            <Link to="/products" className="link">
               New Season
             </Link>
           </button>
@@ -46,7 +46,7 @@ const Categories = () => {
                 alt=""
               />
               <button>
-                <Link to="/products/1" className="link">
+                <Link to="/products/2" className="link">
                   Men
                 </Link>
               </button>
@@ -60,7 +60,7 @@ const Categories = () => {
                 alt=""
               />
               <button>
-                <Link to="/products/1" className="link">
+                <Link to="/products/3" className="link">
                   House Elf
                 </Link>
               </button>
@@ -73,7 +73,7 @@ const Categories = () => {
             alt=""
           />
           <button>
-            <Link to="/products/1" className="link">
+            <Link to="/products" className="link">
               Set
             </Link>
           </button>

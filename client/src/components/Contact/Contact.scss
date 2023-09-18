@@ -1,49 +1,33 @@
-.categories {
+.contact {
+  background-color: #2879fe;
+  color: white;
+  padding: 15px;
   display: flex;
-  height: 80vh;
-  gap: 10px;
-  margin: 10px;
+  justify-content: center;
 
-  .col {
-    flex: 1;
+  .wrapper {
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+    align-items: center;
+    justify-content: space-between;
 
-  .col-l {
-    flex: 2;
-  }
-
-  .row {
-    flex: 1;
-    display: flex;
-    gap: 10px;
-    position: relative;
-    overflow: hidden;
-
-    button {
-      position: absolute;
-      min-width: 100px;
-      width: fit-content;
-      height: 50px;
+    input {
       padding: 10px;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      cursor: pointer;
       border: none;
-      background-color: white;
-      text-transform: uppercase;
-      font-weight: 500;
+      border-radius: 5px 0 0 5px;
     }
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    button {
+      padding: 10px;
+      color: white;
+      background: #333;
+      border-radius: 0 5px 5px 0;
+      border: none;
+    }
+
+    .icons {
+      display: flex;
+      gap: 10px;
     }
   }
 }
